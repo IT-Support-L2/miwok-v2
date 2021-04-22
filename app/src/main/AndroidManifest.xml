@@ -12,10 +12,18 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FamilyActivity"></activity>
-        <activity android:name=".PhrasesActivity" />
-        <activity android:name=".ColorsActivity" />
-        <activity android:name=".NumbersActivity" />
+        <activity android:name=".FamilyActivity"
+            android:label="Family Members"
+            ></activity>
+        <activity android:name=".PhrasesActivity"
+            android:label="Phrases"
+            />
+        <activity android:name=".ColorsActivity"
+            android:label="Colors"
+            />
+        <activity android:name=".NumbersActivity"
+            android:label="Numbers"
+            />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
