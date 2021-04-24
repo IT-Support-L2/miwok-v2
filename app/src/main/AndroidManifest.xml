@@ -14,15 +14,19 @@
         android:theme="@style/AppTheme">
         <activity android:name=".FamilyActivity"
             android:label="Family Members"
+            android:parentActivityName=".MainActivity"
             ></activity>
         <activity android:name=".PhrasesActivity"
             android:label="Phrases"
+            android:parentActivityName=".MainActivity"
             />
         <activity android:name=".ColorsActivity"
             android:label="Colors"
+            android:parentActivityName=".MainActivity"
             />
         <activity android:name=".NumbersActivity"
             android:label="Numbers"
+            android:parentActivityName=".MainActivity"
             />
         <activity android:name=".MainActivity">
             <intent-filter>
