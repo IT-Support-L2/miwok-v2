@@ -1,3 +1,3 @@
 # miwok-v1
 
-This is the Miwok app v1 from Udacity Android Development course.
+Miwok app v2 with TabLayout from Udacity Android Development course.
